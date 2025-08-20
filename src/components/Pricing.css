@@ -1,0 +1,43 @@
+.pricing {
+  padding: 4rem 2rem;
+  background-color: #f7faff;
+  text-align: center;
+}
+
+.pricing h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+}
+
+.plan-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  transition: transform 0.3s;
+}
+
+.plan-card:hover {
+  transform: translateY(-5px);
+}
+
+.plan-card h3 {
+  font-size: 1.5rem;
+  color: #007bff;
+}
+
+.plan-card button {
+  background-color: #007bff;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  margin-top: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
